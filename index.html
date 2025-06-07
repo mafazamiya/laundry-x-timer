@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laundry Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>⏱️ PENCUCIANMU DIMULAI!</h1>
+      <div class="buttons">
+        <button id="btnWash">MESIN CUCI</button>
+        <button id="btnDry">MESIN PENGERING</button>
+      </div>
+      <div id="timerSection" class="hidden">
+        <div id="countdown">30:00</div>
+        <progress id="progressBar" value="100" max="100"></progress>
+        <p id="status">Timer sedang berjalan...</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
